@@ -3,4 +3,6 @@ project(Runoob)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Runoob main.cpp)
+add_executable(Runoob main.cpp Decorating.cpp)
+
+add_executable(Decorating Decorating.cpp)
