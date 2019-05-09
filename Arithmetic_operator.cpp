@@ -21,10 +21,10 @@ int main() {
     c = a % b;
     cout << "Line 5 - c is " << c << endl;
     int d = 10;
-    c=d++;
-    cout<<"Line 6 - c is"<<c<<endl;
+    c = d++;
+    cout << "Line 6 - c is " << c << endl;
     d = 10;
-    c=d--;
-    cout<<"Line 7 - c is "<<c<<endl;
+    c = d--;
+    cout << "Line 7 - c is " << c << endl;
     return 0;
 }
