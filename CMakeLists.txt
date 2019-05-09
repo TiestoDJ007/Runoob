@@ -3,7 +3,7 @@ project(Runoob)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Runoob main.cpp Decorating.cpp static_class.cpp)
+add_executable(Runoob main.cpp Decorating.cpp static_class.cpp Arithmetic_operator.cpp)
 
 add_executable(Decorating Decorating.cpp)
 add_executable(static_class static_class.cpp)
